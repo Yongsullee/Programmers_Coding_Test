@@ -1,12 +1,16 @@
 /*
-    *   For 문을 돌면서 String의 특정 문자 제거하기
+    1.   For 문을 돌면서 String의 특정 문자 제거하기
 
     :   For문 안에서 직접 str.erase()를 활용하면 항목간의 순서가 변경되어
         제대로 삭제되지 않는 경우가 발생합니다. 따라서, STL 알고리즘의 remove_if를 활용합니다.
 
-    *   auto it = remove_if(begin(s), end(s), Pred)
+    2.   auto it = remove_if(begin(s), end(s), Pred)
 
     :   remove_if 의 세 번째 인자는 Predicate 함수입니다!!
+
+    3.  10진수 -> 2진수 변환 알고리즘
+
+    : 아래 decToBin을 참고해주세요!
 
 */
 
