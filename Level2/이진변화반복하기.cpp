@@ -15,10 +15,10 @@
 */
 
 #include <string>
-#include <vector>
+#include<vector>
 #include <algorithm>
 
-using namespace std;
+    using namespace std;
 
 bool Pred(char c)
 {
