@@ -23,7 +23,5 @@ vector<vector<int>> solution(vector<vector<int>> arr1, vector<vector<int>> arr2)
                 answer[i][j] += arr1[i][k] * arr2[k][j];
         }
     }
-    `
-
-        return answer;
+    return answer;
 }
